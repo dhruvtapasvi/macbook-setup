@@ -4,8 +4,9 @@ This repository contains configuration settings and setup scripts for personalis
 
 ## Instructions
 
-Start off by running `source setup_terminal.sh` from Terminal `bash`. This creates the correct terminal environment.
-Now run `source setup_config.sh`. This symlinks all the config files (e.g. vimrc, zshrc) into your home directory.
+Start off by running `source setup_terminal.sh` from Terminal `bash`. This creates the correct terminal environment. Exit Terminal and open iTerm after completing this step, setting the default shell to `zsh` if need be.
+
+Now run `source setup_config.sh`. This symlinks all the config files (e.g. vimrc, zshrc) into your home directory. Quit and reopen iTerm.
 
 ## Changing Directory
 
