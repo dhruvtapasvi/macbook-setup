@@ -1,0 +1,12 @@
+encrypt() {
+        openssl enc -des3 -salt -in "$1" -out "$1.enc"
+        rm "$1"
+        mv "$1.enc" "$1"
+}
+
+decrypt() {
+        mv "$1" "$1.enc"
+        openssl enc -d -des3 -in "$1.enc" -out "$1"
+        rm "$1.enc"
+}
+
