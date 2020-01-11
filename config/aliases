@@ -10,11 +10,6 @@ decrypt() {
         rm "$1.enc"
 }
 
-# Meta-alias
-alias lalias="alias | less"
-alias realias="source ~/.aliases"
-
 # git
 alias gbdall="git branch | grep -v "master" | xargs git branch -d"
 alias gbDall="git branch | grep -v "master" | xargs git branch -D"
-
