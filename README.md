@@ -16,7 +16,7 @@ This repository contains configuration settings and setup scripts for personalis
 
 ## dotfiles
 
-This assumes that `zsh` is installed and is moreover configured as the default shell.
+This assumes that `zsh` is installed and is moreover configured as the default shell. It also assumes that `oh-my-zsh` is installed in the home directory.
 
 Run `source setup_config.sh`. This symlinks all the config files (e.g. vimrc, zshrc) into your home directory. Restart `zsh`.
 
