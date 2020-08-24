@@ -96,3 +96,7 @@ source $ZSH/oh-my-zsh.sh
 #
 source ~/.aliases
 source ~/.local_aliases
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/dhruvtapasvi/.sdkman"
+[[ -s "/Users/dhruvtapasvi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/dhruvtapasvi/.sdkman/bin/sdkman-init.sh"
